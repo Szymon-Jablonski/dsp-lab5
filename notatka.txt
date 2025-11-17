@@ -1,0 +1,2 @@
+timer prescaler - czestotliwosc z jaka taktuje timer
+counter period - counter do ilu liczy timer
