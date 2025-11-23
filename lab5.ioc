@@ -1,6 +1,6 @@
 #MicroXplorer Configuration settings - do not modify
 ADC1.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_1
-ADC1.ContinuousConvMode=ENABLE
+ADC1.ContinuousConvMode=DISABLE
 ADC1.DMAContinuousRequests=ENABLE
 ADC1.ExternalTrigConv=ADC_EXTERNALTRIGCONV_T3_TRGO
 ADC1.IPParameters=Rank-0\#ChannelRegularConversion,master,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,NbrOfConversionFlag,ExternalTrigConv,ContinuousConvMode,DMAContinuousRequests
@@ -365,7 +365,7 @@ SH.GPXTI0.0=GPIO_EXTI0
 SH.GPXTI0.ConfNb=1
 SH.GPXTI1.0=GPIO_EXTI1
 SH.GPXTI1.ConfNb=1
-TIM3.AutoReloadPreload=TIM_AUTORELOAD_PRELOAD_ENABLE
+TIM3.AutoReloadPreload=TIM_AUTORELOAD_PRELOAD_DISABLE
 TIM3.IPParameters=Prescaler,TIM_MasterOutputTrigger,Period,AutoReloadPreload
 TIM3.Period=104
 TIM3.Prescaler=0
